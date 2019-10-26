@@ -1,6 +1,7 @@
 import React from 'react';
 
 import $confirm from './confirm/confirm'
+import Input from './input/Input'
 
 class App extends React.Component {
   componentDidMount() {
@@ -13,10 +14,11 @@ class App extends React.Component {
       alert("点击了取消")
     });
   }
+
   render() {
     return (
       <div className="App">
-
+        
       </div>
     );
   }
